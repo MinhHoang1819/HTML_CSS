@@ -1,0 +1,19 @@
+.anh {
+    display: flex;
+    width: 800px;
+    margin-left: 150px;
+}
+
+.trai {
+    width: 450px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.phai {
+    width: 250px;
+}
+
+img {
+    width: 100%;
+}

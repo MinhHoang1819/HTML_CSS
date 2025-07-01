@@ -1,0 +1,25 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+h2 {
+    width: 800px;
+    margin-left: 300px;
+    font-size: 32px;
+}
+
+p {
+    width: 800px;
+    margin-left: 300px;
+    font-size: 26px;
+}
+
+img {
+    width: 800px;
+    margin-left: 300px;
+}
+
+h5 {
+    width: 800px;
+    margin-left: 300px;
+}

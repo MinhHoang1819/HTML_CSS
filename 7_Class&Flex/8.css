@@ -1,0 +1,13 @@
+div.so1 {
+    display: flex;
+    width: 400px;
+}
+
+img.con1 {
+    width: 200px;
+    margin-right: 10px;
+}
+
+img.con2 {
+    width: 200px;
+}
