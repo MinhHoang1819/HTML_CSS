@@ -1,0 +1,37 @@
+.cottrai {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 700px;
+}
+
+.phai {
+    margin-left: 20px;
+    width: 500px;
+}
+
+img {
+    width: 100%;
+}
+
+.anh{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.anh:hover {
+    color: lightskyblue;
+    transition: .3s;
+}
+
+.nguon {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
