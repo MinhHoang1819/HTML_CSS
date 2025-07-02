@@ -1,0 +1,19 @@
+.banner {
+    width: 1233px;
+    height: 540px;
+    background-color: wheat;
+    margin: auto;
+    display: flex;
+}
+
+.banner ._1c{
+    width: 240px;
+}
+
+.banner ._2c{
+    width: 585px;
+}
+
+.banner ._3c{
+    width: 408px;
+}
