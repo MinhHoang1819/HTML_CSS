@@ -1,0 +1,17 @@
+.khung {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    background-image: url(https://salt.tikicdn.com/cache/w750/ts/tikimsp/fb/fd/d8/1ae4a676e40efdbfbb14b66952ae4212.png.webp);
+    color: black;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noidung {
+    padding: 31px;
+    background: white;
+}

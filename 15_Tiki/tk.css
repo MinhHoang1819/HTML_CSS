@@ -1,19 +1,57 @@
 .banner {
-    width: 1233px;
-    height: 540px;
-    background-color: wheat;
+    display: flex;
+    width: 1115px;
+    height: 490px;
     margin: auto;
+}
+
+.banner ._1c {
+    width: 218px;
+}
+
+.banner ._1c .hang {
     display: flex;
 }
 
-.banner ._1c{
-    width: 240px;
+.banner ._1c .hang .hangtrai {
+    width: 35px;
 }
 
-.banner ._2c{
+.banner ._1c .hang .hangphai {
+    width: calc(100% - 35px);
+}
+
+.banner ._2c {
     width: 585px;
 }
 
-.banner ._3c{
-    width: 408px;
+.banner ._2c .tren {
+    height: 312px;
+}
+
+.banner ._2c .duoi {
+    height: 160px;
+    display: flex;
+}
+
+.banner ._2c .duoi .motnua {
+    width: 50%;
+}
+
+.banner ._3c {
+    width: 372px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner ._3c .saudiv {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+#s1 .carousel-indicators {
+    display: none;
 }
