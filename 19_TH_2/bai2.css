@@ -1,0 +1,68 @@
+.image_block {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 360px;
+    height: 460px;
+    position: relative;
+}
+
+.image_block .layer1 {width: 100%;}
+
+.image_block .white {
+    background-color: #00b19e;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    position: absolute;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.image_block .blackicon {
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.image_block .bigtext {
+    color: white;
+    font-size: 21px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    transition: 0.3s;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.image_block .smalltext {
+    color: white;
+    font-size: 21px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.image_block:hover .layer1 {}
+
+.image_block:hover .white {opacity: 0.8;}
+
+.image_block:hover .blackicon {opacity: 1;}
+
+.image_block:hover .bigtext {
+    opacity: 1;
+    bottom: 85px;
+    transition-delay: 0.2s;
+}
+
+.image_block:hover .smalltext {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
