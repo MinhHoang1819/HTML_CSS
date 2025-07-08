@@ -1,0 +1,39 @@
+.bo {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.lop1 {
+    width: 300px;
+    height: 300px;
+}
+
+.lop2 {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+}
+
+.lop2:hover {
+    opacity: 0.4;
+}
+
+.lop3 {
+    color: red;
+    font-size: 26px;
+    position: absolute;
+    top: 32px;
+    left: 35px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.lop3:hover {
+    opacity: 1;
+}
