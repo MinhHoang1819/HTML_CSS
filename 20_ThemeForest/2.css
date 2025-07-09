@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bo {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bo .anh {
+    width: 100%;
+    height: 100%;
+}
+
+.bo .xam {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: lightslategray;
+    transition: 0.4s;
+    border: 0px solid black;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+.bo:hover .xam {
+    opacity: 0.9;
+    border: 10px solid black;
+}
+
+.bo .chu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.bo:hover .chu {
+    opacity: 1;
+}
+
+.bo .chu h2 {}
+
+.bo .chu p {}
