@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {}
+
+.banner_top {
+    background: url(https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/ai-la-nguoi-dam-me-nhung-bau-troi-dem-day-sao-dep-den-nao-long-nao.jpg) top center;
+    height: 600px;
+    background-size: cover;
+}
+
+.banner_top ._3cot {
+    display: flex;
+}
+
+.banner_top ._3cot ._1cot {
+    width: 33.33%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cottrai, .cottrai a {
+    font-size: 21px;
+    display: inline-block;
+    padding: 7px 5px;
+}
+
+.cottrai a:hover {
+    color: #0345bf;
+}
+
+.cotgiua {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.cotgiua a {
+    font-weight: bold;
+}
+
+.cotphai, .cotphai a {
+    text-align: right;
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+.cotphai {
+    padding-right: 15px;
+}
